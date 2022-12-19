@@ -1,4 +1,4 @@
-# standalone-analyze-schema
+# analyze-schema-nodejs
 very similar code to the [mongosh snippet for analyze-schema](https://github.com/mongodb-labs/mongosh-snippets/tree/main/snippets/analyze-schema); however, this version extracts the core logic to a nodejs script that is more easily extensible for programatic use.
 
 # usage
@@ -56,5 +56,3 @@ mode to preform the schema analysis. Currently supported modes are:
   * all other values will be ignored
 
 (default: unset (analyze full collection))# standalone-analyze-schema
-# standalone-analyze-schema
-# analyze-schema-nodejs
